@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Apple</title>
+  </head>
+  <body>
+
+  <img id="apple" src="https://i5.walmartimages.ca/images/Enlarge/094/514/6000200094514.jpg" width="100">
+  <p id="text">Original text</p>
+  
+  <button onclick="eatApple()">Eat apple!</button>
+  <button onclick="changeText()">Change text</button>
+  
+  <script>
+    function eatApple() {
+      document.getElementById("apple").src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Apple_with_a_bite_taken_out_of_it.png"
+    }
+    function changeText() {
+    	document.getElementById("text").innerHTML="New text!"
+    }
+  </script>
+
+  </body>
+</html>
